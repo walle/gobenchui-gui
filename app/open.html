@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open</title>
+    <link rel="stylesheet" type="text/css" href="css/application.css" />
+  </head>
+  <body>
+    <h2>Select package and flags</h3>
+    <form id="proc" onsubmit="return false;">
+      <label>
+        Gobenchui flags
+        <input type="text" name="args" value="-last 10" />
+      </label>
+      <label>
+        Go package to analyze
+        <input id="path" type="button" name="path" value="Select package" />
+      </label>
+      <input id="submit" type="submit" value="Open" />
+    </form>
+    <script type="text/javascript" src="js/open.js"></script>
+  </body>
+
+</html>
